@@ -1,0 +1,141 @@
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.button{
+    padding: 5rem;
+    margin: 2rem;
+}
+
+.LoginForm {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.container.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.background {
+    background-color: #c7d0df;
+}
+
+.fs-label {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.button.vote {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url("../img/vote_2.png");
+    background-size: cover;
+    border: 0px;
+}
+
+.button.report {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url("../img/report_1.png");
+    background-size: cover;
+    border: 0px;
+}
+
+.button.createVotingActivity {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url("../img/createVotingActivity_1.png");
+    background-size: cover;
+    border: 0px
+}
+
+.button.invoicingVotingActivity {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url("../img/invoicing_1.png");
+    background-size: cover;
+    border: 0px
+}
+
+.vote:hover,
+.report:hover,
+.createVotingActivity:hover,
+.invoicingVotingActivity:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+    box-shadow: 0px 16px 24px -12px rgba(0, 0, 0, 0.6);
+}
+
+.card-flip {
+    perspective: 1000px;
+}
+
+.card-content {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.card-flip:hover .flip,
+.card-flip.hover .flip {
+    transform: rotateY(180deg);
+}
+.card-flip,
+.front,
+.back {
+    width: 100%;
+    min-height: 300px;
+}
+.flip {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.front {
+    z-index: 2;
+    transform: rotateY(0deg);
+}
+.back {
+    transform: rotateY(180deg);
+}
+.card img {
+    text-align: center;
+    object-fit:contain;
+}
+
+.cardSize {
+    width: 300px;
+    height: 300px;
+
+}
+
+.ballotInput {
+    zoom:4;
+}
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,128 @@
+/*
+ 這是 sugar ice 的 style sheet!!!!!!!!
+ */
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../img/overlay.png"),url("../img/bg.jpg");
+}
+#box1 {
+    width: 500px;
+    height: 200px;
+    border: 1px solid #ffffff00;
+}
+#wrapper {
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 600px;
+    max-width: 100%;
+    border: 2px solid #212121;
+    border-radius: 4px;
+}
+#wrapper div{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    background: #fff;
+    border: 20px solid #eee;
+    overflow: auto;
+    border-radius: 4px;
+    border-top: 4px solid #eee;
+    border-bottom: 4px solid #eee;
+}
+#wrapper img {
+    width: 600px;
+    background-position: center;
+}
+#wrapper h1 {
+    text-align: center;
+    font-size: 300%;
+    color: white;
+    margin-left: 0px;
+    border-bottom: 4px solid #eee;
+}
+#wrapper h2 {
+    text-align: center;
+    font-size: 150%;
+    color: white;
+}
+#wrapper button {
+    width:320px;
+    height:50px;
+    font-size:30px;
+}
+/* select style */
+.custom-select {
+    min-width: 350px;
+    position: relative;
+}
+
+select {
+    /*  safari  */
+    /*  other styles for aesthetics */
+    margin-left: 32%;
+    width: 35%;
+    font-size: 1.15rem;
+    padding: 0.675em 6em 0.675em 1em;
+    background-color: #fff;
+    border: 1px solid #caced1;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+}
+
+.custom-select::before,
+.custom-select::after {
+    --size: 0.3rem;
+    content: "";
+    position: absolute;
+    right: 1rem;
+    pointer-events: none;
+}
+
+.custom-select::before {
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-bottom: var(--size) solid black;
+    top: 40%;
+}
+
+.custom-select::after {
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-top: var(--size) solid black;
+    top: 55%;
+}
+/* sugarice css */
+.form-group {
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 33.5%;
+}
+#myNumber {
+    text-align: center;
+    font-size:30px;
+    margin-top:10px;
+}
+.header{
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.header button{
+    font-size: 80%;
+    border-radius: 4px;
+    color: #541818;
+    background-color: #dcc7c7;
+}
+
+#main button{
+    max-width: 100%;
+    font-size: 150%;
+}
