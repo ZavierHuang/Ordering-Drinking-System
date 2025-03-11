@@ -1,4 +1,5 @@
-INSERT INTO product (ProductName, price, size, sugar, ice, type) VALUES
+ALTER TABLE ooad_db.product CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+INSERT INTO ooad_db.product (ProductName, price, size, sugar, ice, type) VALUES
  ('耶加雪非', 70, 'M', '正常', '熱', 'Boutique hand coffee'),
  ('耶加雪非', 70, 'M', '無糖', '熱', 'Boutique hand coffee'),
  ('耶加雪非', 70, 'M', '半糖', '熱', 'Boutique hand coffee'),
