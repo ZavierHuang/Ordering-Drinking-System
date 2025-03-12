@@ -19,6 +19,6 @@
 6. 若庫存不足時將自動關閉該飲料品項(Unable狀態)
 
 
-## TestCase
+## Use Case Diagram 
 ![image](https://i.imgur.com/trGIllR.png)
 
