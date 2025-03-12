@@ -20,5 +20,5 @@
 
 
 ## Use Case Diagram 
-![image](https://i.imgur.com/trGIllR.png)
+<img src='https://i.imgur.com/trGIllR.png' width=350px height=600px/>
 
